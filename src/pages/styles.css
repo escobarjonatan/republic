@@ -38,8 +38,6 @@ body {
 
 .next {
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .previous {
@@ -52,14 +50,11 @@ body {
   background: transparent;
 }
 
-.flickity-page-dots {
+.flickity-page-dots,
+.flickity-prev-next-button:disabled {
   display: none;
 }
 
 .flickity-prev-next-button .arrow {
   fill: #f3f4f6;
-}
-
-.flickity-prev-next-button:disabled {
-  display: none;
 }
