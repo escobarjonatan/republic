@@ -39,13 +39,13 @@ const Location = () => (
         </div>
         <div className="sm:w-1/2 w-full h-96 sm:mt-0 mt-11">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.990229001815!2d-96.68936884880765!3d32.84551038085794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864ea13e1e5e6131%3A0x623c7b38c2684144!2sRepublic%20Barbershop!5e0!3m2!1sen!2sus!4v1636080124766!5m2!1sen!2sus"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
             aria-hidden="false"
-            tabIndex="0"
+            height="100%"
             loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.990229001815!2d-96.68936884880765!3d32.84551038085794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864ea13e1e5e6131%3A0x623c7b38c2684144!2sRepublic%20Barbershop!5e0!3m2!1sen!2sus!4v1636080124766!5m2!1sen!2sus"
+            style={{ border: 0 }}
+            tabIndex="0"
+            width="100%"
           ></iframe>
         </div>
       </div>

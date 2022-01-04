@@ -1,5 +1,5 @@
 const Faq = () => (
-  <div className="mt-11">
+  <section className="mt-11">
     <h2 className="font-bold sm:text-3xl text-xl">
       Frequently Asked Questions
     </h2>
@@ -42,7 +42,7 @@ const Faq = () => (
         </dd>
       </div>
     </dl>
-  </div>
+  </section>
 );
 
 export default Faq;

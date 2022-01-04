@@ -9,31 +9,29 @@ import MetaHead from "../components/MetaHead/MetaHead.jsx";
 import Team from "../components/Team/Team.jsx";
 import hero from "../public/images/hero.jpeg";
 
-const Home = () => {
-  return (
-    <>
-      <MetaHead />
-      <Header />
-      <Image
-        alt="Republic Barbershop Hero Image"
-        height="500px"
-        layout="responsive"
-        placeholder="blur"
-        priority
-        quality="100"
-        src={hero}
-      />
-      <div className="max-w-7xl mx-auto text-center px-7">
-        <About />
-        <Carousel />
-        <Team />
-        <Faq />
-        <Contact />
-      </div>
-      <Footer />
-    </>
-  );
-};
+const Home = () => (
+  <>
+    <MetaHead />
+    <Header />
+    <Image
+      alt="Republic Barbershop Hero Image"
+      height="500px"
+      layout="responsive"
+      placeholder="blur"
+      priority
+      quality="100"
+      src={hero}
+    />
+    <div className="max-w-7xl mx-auto text-center px-7">
+      <About />
+      <Carousel />
+      <Team />
+      <Faq />
+      <Contact />
+    </div>
+    <Footer />
+  </>
+);
 
 export default Home;
 
