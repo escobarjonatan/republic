@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../public/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../public/fonts/Montserrat/Montserrat-Bold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Machineat";
+  src: url(../public/fonts/Machineat/Machineat.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background-color: #f3f4f6;
+}
+
+.flickity-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.next {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.previous {
+  left: 0;
+}
+
+.flickity-prev-next-button {
+  width: 75px;
+  height: 75px;
+  background: transparent;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+.flickity-prev-next-button .arrow {
+  fill: #f3f4f6;
+}
+
+.flickity-prev-next-button:disabled {
+  display: none;
+}
