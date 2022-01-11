@@ -3,4 +3,5 @@ module.exports = {
     images: {
         domains: ["placeimg.com"],
     },
+    swcMinify: true,
 };

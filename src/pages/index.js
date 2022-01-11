@@ -18,7 +18,6 @@ const Home = () => (
       height="500px"
       layout="responsive"
       placeholder="blur"
-      priority
       quality="100"
       src={hero}
     />
