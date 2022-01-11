@@ -4,6 +4,7 @@ const Footer = () => (
       <a
         className="p-2 hover:text-gray-50"
         href="https://www.google.com"
+        rel="noreferrer"
         target="_blank"
       >
         <svg
@@ -20,6 +21,7 @@ const Footer = () => (
       <a
         className="p-2 hover:text-gray-50"
         href="https://www.google.com"
+        rel="noreferrer"
         target="_blank"
       >
         <svg

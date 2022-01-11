@@ -1,19 +1,21 @@
 import styles from "./Logo.module.css";
+import Link from "next/link";
 
 const Logo = ({ wrapperClasses = "" }) => (
-  <a
-    className={wrapperClasses}
-    href="/"
-    title="Republic Barbershop Home"
-    aria-label="Navigate to Republic Barbershop home page"
-  >
-    <div className="relative">
-      <span className="font-mono text-5xl">republic</span>
-      <span className={`font-sans font-bold absolute ${styles.barbershop}`}>
-        BARBERSHOP
-      </span>
-    </div>
-  </a>
+  <Link href="/">
+    <a
+      aria-label="Navigate to Republic Barbershop home page"
+      className={wrapperClasses}
+      title="Republic Barbershop Home"
+    >
+      <div className="relative">
+        <span className="font-mono text-5xl">republic</span>
+        <span className={`font-sans font-bold absolute ${styles.barbershop}`}>
+          BARBERSHOP
+        </span>
+      </div>
+    </a>
+  </Link>
 );
 
 export default Logo;

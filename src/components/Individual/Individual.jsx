@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 const Individual = ({
@@ -10,12 +11,13 @@ const Individual = ({
   <a
     className="m-2 p-4 sm:m-3 sm:p-3 md:m-4 hover:bg-gray-100 rounded-lg shadow"
     href={barberUrl}
+    rel="noreferrer"
     target="_blank"
   >
     <div className="text-center mb-4 opacity-90 block relative">
       <img
         alt={name}
-        className="mx-auto object-cover rounded-full h-40 w-40 "
+        className="mx-auto object-cover rounded-full h-40 w-40"
         src="http://placecorgi.com/472/343"
       />
     </div>
@@ -30,7 +32,7 @@ const Individual = ({
     {(facebook || instagram) && (
       <div className="pt-4 mt-4 flex border-t border-gray-200 w-44 mx-auto text-gray-500 items-center justify-around">
         {facebook && (
-          <a href={facebook} target="_blank">
+          <a href={facebook} rel="noreferrer" target="_blank">
             <svg
               className="text-xl hover:text-gray-800 transition-colors duration-200"
               fill="currentColor"
@@ -44,7 +46,7 @@ const Individual = ({
           </a>
         )}
         {instagram && (
-          <a href={instagram} target="_blank">
+          <a href={instagram} rel="noreferrer" target="_blank">
             <svg
               className="text-xl hover:text-gray-800 transition-colors duration-200"
               fill="currentColor"

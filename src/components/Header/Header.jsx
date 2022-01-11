@@ -1,5 +1,6 @@
 import Logo from "../Logo/Logo.jsx";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -73,13 +74,14 @@ const Header = () => {
               <Logo wrapperClasses="text-white sm:hidden block" />
               <div className="hidden sm:block sm:w-full">
                 <div className="flex items-center justify-center md:space-x-12 space-x-4">
-                  <a
-                    aria-current="page"
-                    className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold"
-                    href="/"
-                  >
-                    Home
-                  </a>
+                  <Link href="/">
+                    <a
+                      aria-current="page"
+                      className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold"
+                    >
+                      Home
+                    </a>
+                  </Link>
                   <a
                     className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold"
                     href="#about"
@@ -111,12 +113,11 @@ const Header = () => {
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 text-center">
-            <a
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
-              href="/"
-            >
-              Home
-            </a>
+            <Link href="/">
+              <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold">
+                Home
+              </a>
+            </Link>
             <a
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
               href="#about"
