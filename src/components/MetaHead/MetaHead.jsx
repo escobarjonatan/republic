@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+// TODO : Update with real information
 const MetaHead = () => (
   <Head>
     <title>Republic Barbershop</title>
@@ -32,6 +32,7 @@ const MetaHead = () => (
       content="Republic Barbershop in Dallas, TX"
     />
     <meta name="description" content="Republic Barbershop in Dallas, TX" />
+    <link rel="icon" href="https://i.ibb.co/ZVTd1ZF/logo.png"></link>
   </Head>
 );
 
