@@ -18,7 +18,7 @@ const Individual = ({
       <img
         alt={name}
         className="mx-auto object-cover rounded-full h-40 w-40"
-        src="http://placecorgi.com/472/343"
+        src="https://placeimg.com/472/343/people"
       />
     </div>
     <div className="text-center">
