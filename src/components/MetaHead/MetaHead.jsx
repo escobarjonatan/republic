@@ -8,7 +8,10 @@ const MetaHead = () => (
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:title" content="Republic Barbershop" key="title" />
     <meta property="og:site_name" content="Republic Barbershop" />
-    <meta property="og:url" content="https://therepublicbarbershop.com/" />
+    <meta
+      property="og:url"
+      content="https://republic-fzs8vlh27-escobarjonatan.vercel.app/"
+    />
     <meta property="og:type" content="website" />
     <meta
       property="og:description"
@@ -19,7 +22,10 @@ const MetaHead = () => (
     <meta property="og:image:width" content="720" />
     <meta property="og:image:height" content="519" />
     <meta itemProp="name" content="Republic Barbershop" />
-    <meta itemProp="url" content="https://therepublicbarbershop.com/" />
+    <meta
+      itemProp="url"
+      content="https://republic-fzs8vlh27-escobarjonatan.vercel.app/"
+    />
     <meta itemProp="description" content="Republic Barbershop in Dallas, TX" />
     <meta
       itemProp="thumbnailUrl"
@@ -28,7 +34,10 @@ const MetaHead = () => (
     <meta itemProp="image" content="https://placeimg.com/400/400/people" />
     <meta name="twitter:title" content="Republic Barbershop" />
     <meta name="twitter:image" content="https://placeimg.com/400/400/people" />
-    <meta name="twitter:url" content="https://therepublicbarbershop.com/" />
+    <meta
+      name="twitter:url"
+      content="https://republic-fzs8vlh27-escobarjonatan.vercel.app/"
+    />
     <meta name="twitter:card" content="summary" />
     <meta
       name="twitter:description"
