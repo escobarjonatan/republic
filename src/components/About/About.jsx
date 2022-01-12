@@ -1,7 +1,7 @@
 const About = () => (
   <>
     <section id="about" className="mt-11">
-      <h1 className="font-sans font-bold sm:text-3xl text-xl">
+      <h1 className="font-sans font-bold sm:text-3xl text-xl flex flex-wrap items-center justify-center">
         About
         <span className="font-mono sm:text-5xl text-3xl pl-5">republic</span>
         <span className="pl-5">Barbershop</span>

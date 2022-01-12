@@ -44,13 +44,6 @@ const Footer = () => (
       Copyright &#169; {`${new Date().getFullYear()}`} Republic Barbershop. All
       rights reserved.
     </p>
-    <a
-      aria-label="Scroll to Top"
-      className="absolute text-lg -top-14 right-3 border-2 text-gray-800 border-gray-800 focus:ring-4 rounded-lg text-center px-3 -rotate-90"
-      href="#top"
-    >
-      &#10140;
-    </a>
   </footer>
 );
 

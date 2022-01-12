@@ -26,8 +26,12 @@
   }
 }
 
+:root {
+  --republic-gray: #f3f4f6;
+}
+
 body {
-  background-color: #f3f4f6;
+  background-color: var(--republic-gray);
 }
 
 /* Custom CSS for Flickity slideshow */
@@ -57,5 +61,5 @@ body {
 }
 
 .flickity-prev-next-button .arrow {
-  fill: #f3f4f6;
+  fill: var(--republic-gray);
 }

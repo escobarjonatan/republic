@@ -7,6 +7,7 @@ import Footer from "../components/Footer/Footer.jsx";
 import Header from "../components/Header/Header.jsx";
 import MetaHead from "../components/MetaHead/MetaHead.jsx";
 import Team from "../components/Team/Team.jsx";
+import BackToTop from "../components/BackToTop/BackToTop.jsx";
 import hero from "../public/images/hero.jpeg";
 
 const Home = () => (
@@ -28,6 +29,7 @@ const Home = () => (
       <Faq />
       <Contact />
     </div>
+    <BackToTop />
     <Footer />
   </>
 );
