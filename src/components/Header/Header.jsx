@@ -6,8 +6,12 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(true);
 
-  const handleClick = () => {
+  const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleNavigation = () => {
+    setIsMenuOpen(false);
   };
 
   const handleResize = () => {
@@ -33,7 +37,7 @@ const Header = () => {
                 aria-controls="mobile-menu"
                 aria-expanded="false"
                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-inset focus:ring-4 focus:ring-gray-300"
-                onClick={handleClick}
+                onClick={toggleMenu}
                 type="button"
               >
                 <span className="sr-only">Open main menu</span>
@@ -82,25 +86,22 @@ const Header = () => {
                       Home
                     </a>
                   </Link>
-                  <a
-                    className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold"
-                    href="#about"
-                  >
-                    About
-                  </a>
+                  <Link href="#about">
+                    <a className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold">
+                      About
+                    </a>
+                  </Link>
                   <Logo wrapperClasses="text-white sm:block hidden" />
-                  <a
-                    className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold"
-                    href="#team"
-                  >
-                    Book Now
-                  </a>
-                  <a
-                    className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold"
-                    href="#contact"
-                  >
-                    Contact Us
-                  </a>
+                  <Link href="#team">
+                    <a className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold">
+                      Book Now
+                    </a>
+                  </Link>
+                  <Link href="#contact">
+                    <a className="active:bg-gray-900 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-bold">
+                      Contact Us
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -114,28 +115,37 @@ const Header = () => {
         >
           <div className="px-2 pt-2 pb-3 space-y-1 text-center">
             <Link href="/">
-              <a className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold">
+              <a
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
+                onClick={handleNavigation}
+              >
                 Home
               </a>
             </Link>
-            <a
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
-              href="#about"
-            >
-              About
-            </a>
-            <a
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
-              href="#team"
-            >
-              Book Now
-            </a>
-            <a
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
-              href="#contact"
-            >
-              Contact Us
-            </a>
+            <Link href="#about">
+              <a
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
+                onClick={handleNavigation}
+              >
+                About
+              </a>
+            </Link>
+            <Link href="#team">
+              <a
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
+                onClick={handleNavigation}
+              >
+                Book Now
+              </a>
+            </Link>
+            <Link href="#contact">
+              <a
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md font-bold"
+                onClick={handleNavigation}
+              >
+                Contact Us
+              </a>
+            </Link>
           </div>
         </div>
       </nav>
