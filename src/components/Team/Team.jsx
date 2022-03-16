@@ -13,7 +13,7 @@ const Team = () => (
       <Individual
         facebook="https://www.facebook.com/"
         instagram="https://instagram.com/"
-        name="Guillermo"
+        name="NewName"
       />
       <Individual
         facebook="https://www.facebook.com/"
