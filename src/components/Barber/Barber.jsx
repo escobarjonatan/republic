@@ -24,7 +24,7 @@ const Individual = ({
     </div>
     <div className="text-center">
       <p className="text-2xl text-gray-800">{name}</p>
-      <p className="max-w-xs my-4">{description}</p>
+      <p className="max-w-xs my-4 mx-auto">{description}</p>
       <button
         className="border-gray-800 hover:border-gray-900 border-2 focus:ring-4 focus:ring-gray-300 rounded-lg text-sm px-5 py-2.5 text-center"
         type="button"

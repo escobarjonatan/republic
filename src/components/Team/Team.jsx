@@ -1,5 +1,6 @@
 import React from "react";
-import Individual from "../Individual/Individual.jsx";
+import Barber from "../Barber/Barber.jsx";
+import styles from "./Team.module.css";
 
 const Team = () => (
   <section id="team" className="p-8 mt-11 bg-white rounded-lg shadow">
@@ -9,47 +10,45 @@ const Team = () => (
     <p className="text-center mb-11 sm:text-xl">
       Click on any of these barbers to schedule your appointment
     </p>
-    <div className="flex items-center flex-col md:flex-row justify-evenly">
-      <Individual
+    <div
+      className={`grid items-center justify-evenly ${styles["barbers-container"]}`}
+    >
+      <Barber
         facebook="https://www.facebook.com/"
         instagram="https://instagram.com/"
         name="Guillermo"
       />
-      <Individual
+      <Barber
         facebook="https://www.facebook.com/"
         instagram="https://instagram.com/"
         name="Jesus Romero"
       />
-      <Individual
+      <Barber
         facebook="https://www.facebook.com/"
         instagram="https://instagram.com/"
         name="Jose Ponse"
       />
-    </div>
-    <div className="flex items-center flex-col md:flex-row justify-evenly">
-      <Individual
+      <Barber
         facebook="https://www.facebook.com/"
         instagram="https://instagram.com/"
         name="Josh"
       />
-      <Individual
+      <Barber
         facebook="https://www.facebook.com/"
         instagram="https://instagram.com/"
         name="Lalo"
       />
-      <Individual
+      <Barber
         facebook="https://www.facebook.com/"
         instagram="https://instagram.com/"
         name="Julio"
       />
-    </div>
-    <div className="flex items-center flex-col md:flex-row justify-evenly">
-      <Individual
+      <Barber
         facebook="https://www.facebook.com/"
         instagram="https://instagram.com/"
         name="Luis"
       />
-      <Individual
+      <Barber
         facebook="https://www.facebook.com/"
         instagram="https://instagram.com/"
         name="mike"
