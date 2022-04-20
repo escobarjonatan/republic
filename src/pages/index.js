@@ -35,4 +35,3 @@ export default Home;
 // Domain claim
 // Run prettier
 // Update readme
-

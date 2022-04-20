@@ -24,7 +24,7 @@ const Individual = ({
         layout="responsive"
         placeholder="blur"
         className="mx-auto object-cover rounded-full"
-    />
+      />
     </div>
     <div className="text-center mb-4">
       <p className="text-2xl text-gray-800 mb-4">{name}</p>
@@ -51,7 +51,11 @@ const Individual = ({
           </a>
         )}
         {instagram && (
-          <a href={`https://www.instagram.com/${instagram}/`} rel="noreferrer" target="_blank">
+          <a
+            href={`https://www.instagram.com/${instagram}/`}
+            rel="noreferrer"
+            target="_blank"
+          >
             <svg
               className="text-xl hover:text-gray-800 transition-colors duration-200"
               fill="currentColor"

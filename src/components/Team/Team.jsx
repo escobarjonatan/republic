@@ -22,15 +22,47 @@ const Team = () => (
     <div
       className={`grid items-center justify-evenly ${styles["barbers-container"]}`}
     >
-      <Barber name="Julio Juarez" instagram="j_fadethat214" imageUrl={JulioJuarez}/>
-      <Barber name="Guillermo Estrada" instagram="_guillermoe" imageUrl={GuillermoEstrada}/>
-      <Barber name="Jose Ponce" instagram="jpbarberxx" imageUrl={JosePonce}/>
-      <Barber name="Alex Botello"instagram="alexbotello.tv" imageUrl={AlexBotello}/>
-      <Barber name="Joshua Gerardo" instagram="joshcutss__" imageUrl={JoshuaGerardo}/>
-      <Barber name="Jesus Romero" instagram="j.romero_" imageUrl={JesusRomero}/>
-      <Barber name="Michael Manriquez" instagram="blendzbymike" imageUrl={MichaelManriquez}/>
-      <Barber name="Victor Hernandez" instagram="vic.cuts" imageUrl={VictorHernandez}/>
-      <Barber name="Jose Cardenas" instagram="revivedbylalo" imageUrl={JoseCardenas}/>
+      <Barber
+        name="Julio Juarez"
+        instagram="j_fadethat214"
+        imageUrl={JulioJuarez}
+      />
+      <Barber
+        name="Guillermo Estrada"
+        instagram="_guillermoe"
+        imageUrl={GuillermoEstrada}
+      />
+      <Barber name="Jose Ponce" instagram="jpbarberxx" imageUrl={JosePonce} />
+      <Barber
+        name="Alex Botello"
+        instagram="alexbotello.tv"
+        imageUrl={AlexBotello}
+      />
+      <Barber
+        name="Joshua Gerardo"
+        instagram="joshcutss__"
+        imageUrl={JoshuaGerardo}
+      />
+      <Barber
+        name="Jesus Romero"
+        instagram="j.romero_"
+        imageUrl={JesusRomero}
+      />
+      <Barber
+        name="Michael Manriquez"
+        instagram="blendzbymike"
+        imageUrl={MichaelManriquez}
+      />
+      <Barber
+        name="Victor Hernandez"
+        instagram="vic.cuts"
+        imageUrl={VictorHernandez}
+      />
+      <Barber
+        name="Jose Cardenas"
+        instagram="revivedbylalo"
+        imageUrl={JoseCardenas}
+      />
     </div>
   </section>
 );

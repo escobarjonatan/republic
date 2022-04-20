@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   const handleResize = () => {
-    if (!!window.matchMedia("screen and (max-width: 640px)").matches) {
+    if (window.matchMedia("screen and (max-width: 640px)").matches) {
       setIsMobile(true);
     } else {
       setIsMobile(false);
