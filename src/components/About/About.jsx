@@ -7,15 +7,13 @@ const About = () => (
         <span className="pl-5">Barbershop</span>
       </h1>
       <p className="mt-11 whitespace-pre-wrap">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-        ever since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Republic is a locally-owned Dallas neighborhood barbershop that caters
+        to men and women of all ages, who are looking for a classic clean cut or
+        the newest modern style. We offer the option of booking an appointment
+        or simply just walking-in. Our barber education and training separates
+        us from other traditional shops so you can expect to sit in any of our
+        chairs and receive a high quality haircut by any our experienced and
+        talented barbers.
       </p>
     </section>
   </>

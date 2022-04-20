@@ -110,7 +110,7 @@ const Header = () => {
         <div
           className={`${
             isMobile && isMenuOpen ? "block" : "hidden"
-          } absolute bg-gray-800 w-full z-10`}
+          } absolute bg-gray-800 w-full z-50`}
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 text-center">
