@@ -36,7 +36,14 @@ const Home = () => (
 
 export default Home;
 
-// DOMAIN OPTIONS:
-// https://therepublicbarbershop.com/
-// http://dallasrepublicbarbershop.com/
-// http://dfwrepublicbarbershop.com/
+// http://republicbarbershopdtx.com/
+// TODO:
+// Update readme
+
+// FINAL :
+// Update text
+// Add labels
+// Host Images in the cloud
+// Cleanup
+// Domain claim
+
