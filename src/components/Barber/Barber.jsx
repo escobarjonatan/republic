@@ -21,7 +21,6 @@ const Individual = ({
         alt={`Republic barber image of ${name}`}
         height="200px"
         width="200px"
-        quality="25"
         layout="responsive"
         placeholder="blur"
         className="mx-auto object-cover rounded-full"
