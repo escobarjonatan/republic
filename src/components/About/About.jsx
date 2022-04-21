@@ -6,7 +6,7 @@ const About = () => (
         <span className="font-mono sm:text-5xl text-3xl pl-5">republic</span>
         <span className="pl-5">Barbershop</span>
       </h1>
-      <p className="mt-11 whitespace-pre-wrap">
+      <p className="px-8 mt-11 whitespace-pre-wrap">
         Republic is a locally-owned Dallas neighborhood barbershop that caters
         to men and women of all ages, who are looking for a classic clean cut or
         the newest modern style. We offer the option of booking an appointment

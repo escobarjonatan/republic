@@ -28,8 +28,6 @@ const Home = () => (
 
 export default Home;
 
-// http://republicbarbershopdtx.com/
 // TODO:
-// Add labels
-// Cleanup
+// Add labels/lighthouse
 // Update readme
