@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hero from "../../public/images/hero.jpeg";
+import hero from "../../../public/images/hero.jpeg";
 
 const Hero = () => (
   <section className="relative text-center">

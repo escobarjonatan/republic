@@ -1,13 +1,13 @@
 import React from "react";
 import Flickity from "react-flickity-component";
 import Image from "next/image";
-import slideFive from "../../public/images/slideshow/Fade.jpeg";
-import slideFour from "../../public/images/slideshow/GarlandFront.jpeg";
-import slideOne from "../../public/images/slideshow/Beard.jpeg";
-import slideSeven from "../../public/images/slideshow/Cowboys.jpeg";
-import slideSix from "../../public/images/slideshow/BarberChairs.jpeg";
-import slideThree from "../../public/images/slideshow/ActionShot.jpeg";
-import slideTwo from "../../public/images/slideshow/FullView.jpeg";
+import slideFive from "../../../public/images/slideshow/Fade.jpeg";
+import slideFour from "../../../public/images/slideshow/GarlandFront.jpeg";
+import slideOne from "../../../public/images/slideshow/Beard.jpeg";
+import slideSeven from "../../../public/images/slideshow/Cowboys.jpeg";
+import slideSix from "../../../public/images/slideshow/BarberChairs.jpeg";
+import slideThree from "../../../public/images/slideshow/ActionShot.jpeg";
+import slideTwo from "../../../public/images/slideshow/FullView.jpeg";
 
 const Carousel = () => (
   <Flickity

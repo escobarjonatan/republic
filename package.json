@@ -1,5 +1,5 @@
 {
-  "name": "republic-barbershop",
+  "name": "republicbarbershopdallas",
   "author": "Jonatan Escobar",
   "license": "MIT",
   "version": "1.0.0",
@@ -20,7 +20,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "eslint": "8.6.0",
-    "eslint-config-next": "12.0.7",
+    "eslint-config-next": "12.1.5",
     "eslint-config-prettier": "^8.5.0",
     "postcss": "^8.3.11",
     "prettier": "2.5.1",

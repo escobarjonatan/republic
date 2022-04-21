@@ -1,15 +1,15 @@
 import React from "react";
 import Barber from "../Barber/Barber.jsx";
 import styles from "./Team.module.css";
-import AlexBotello from "../../public/images/barbers/AlexBotello.jpeg";
-import GuillermoEstrada from "../../public/images/barbers/GuillermoEstrada.jpeg";
-import JesusRomero from "../../public/images/barbers/JesusRomero.jpeg";
-import JoseCardenas from "../../public/images/barbers/JoseCardenas.jpeg";
-import JosePonce from "../../public/images/barbers/JosePonce.jpeg";
-import JoshuaGerardo from "../../public/images/barbers/JoshuaGerardo.jpeg";
-import JulioJuarez from "../../public/images/barbers/JulioJuarez.jpeg";
-import MichaelManriquez from "../../public/images/barbers/MichaelManriquez.jpeg";
-import VictorHernandez from "../../public/images/barbers/VictorHernandez.jpg";
+import AlexBotello from "../../../public/images/barbers/AlexBotello.jpeg";
+import GuillermoEstrada from "../../../public/images/barbers/GuillermoEstrada.jpeg";
+import JesusRomero from "../../../public/images/barbers/JesusRomero.jpeg";
+import JoseCardenas from "../../../public/images/barbers/JoseCardenas.jpeg";
+import JosePonce from "../../../public/images/barbers/JosePonce.jpeg";
+import JoshuaGerardo from "../../../public/images/barbers/JoshuaGerardo.jpeg";
+import JulioJuarez from "../../../public/images/barbers/JulioJuarez.jpeg";
+import MichaelManriquez from "../../../public/images/barbers/MichaelManriquez.jpeg";
+import VictorHernandez from "../../../public/images/barbers/VictorHernandez.jpg";
 
 const Team = () => (
   <section id="team" className="p-8 mt-11 bg-white rounded-lg shadow">
