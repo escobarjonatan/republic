@@ -32,5 +32,4 @@ export default Home;
 // TODO:
 // Add labels
 // Cleanup
-// Domain claim
 // Update readme
