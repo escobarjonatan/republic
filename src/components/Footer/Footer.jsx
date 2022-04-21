@@ -2,6 +2,7 @@ const Footer = () => (
   <footer className="relative bg-gray-800 text-gray-300 text-center py-10 sm:px-6 lg:px-8 mt-20">
     <div className="flex max-w-sm mx-auto justify-around mb-8">
       <a
+        aria-label="Instagram link for Republic Barbershop"
         className="p-2 hover:text-gray-50"
         href="https://www.instagram.com/republicbarbershopdtx/"
         rel="noreferrer"

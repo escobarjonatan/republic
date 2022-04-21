@@ -52,6 +52,7 @@ const Individual = ({
         )}
         {instagram && (
           <a
+            aria-label={`Instagram link for ${name}`}
             href={`https://www.instagram.com/${instagram}/`}
             rel="noreferrer"
             target="_blank"

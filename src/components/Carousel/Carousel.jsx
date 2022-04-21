@@ -20,10 +20,7 @@ const Carousel = () => (
     <Image src={slideFour} alt="Outside view of the barbershop" />
     <Image src={slideFive} alt="Barbers setting up to cut hair" />
     <Image src={slideSix} alt="Empty barbershop chairs" />
-    <Image
-      src={slideSeven}
-      alt="Dallas Cowboys football game shown in the background"
-    />
+    <Image src={slideSeven} alt="Dallas Cowboys football game shown in the background" />
   </Flickity>
 );
 
