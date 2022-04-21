@@ -33,5 +33,4 @@ export default Home;
 // Add labels
 // Cleanup
 // Domain claim
-// Run prettier
 // Update readme

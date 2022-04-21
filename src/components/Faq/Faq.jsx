@@ -39,7 +39,7 @@ const Faq = () => (
         </dt>
         <dd className="mb-3">
           <p>
-            Go to the barber section in thi site and click on any barber, it
+            Go to the barber section on this site and click on any barber, it
             should take you to our booking service. Upon arrival, let the barber
             know you are there for an appointment.
           </p>

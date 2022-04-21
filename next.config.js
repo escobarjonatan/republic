@@ -1,7 +1,7 @@
-// TODO: Replace with domains instead
 module.exports = {
-  images: {
-    domains: ["placeimg.com"],
-  },
   swcMinify: true,
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
 };
