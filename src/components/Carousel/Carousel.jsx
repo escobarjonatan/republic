@@ -14,13 +14,13 @@ const Carousel = () => (
     className="cursor-pointer overflow-hidden outline-none relative mt-11 text-gray-500"
     options={{ wrapAround: true }}
   >
-    <Image src={slideOne} alt="Barber trimming beard" />
-    <Image src={slideTwo} alt="Inside view of the barbershop" />
-    <Image src={slideThree} alt="Barbers cutting clients's hair" />
-    <Image src={slideFour} alt="Outside view of the barbershop" />
-    <Image src={slideFive} alt="Barbers setting up to cut hair" />
-    <Image src={slideSix} alt="Empty barbershop chairs" />
-    <Image src={slideSeven} alt="Dallas Cowboys football game shown in the background" />
+    <Image src={slideOne} alt="Barber trimming beard" height="960" width="1280"/>
+    <Image src={slideTwo} alt="Inside view of the barbershop" height="960" width="1280"/>
+    <Image src={slideThree} alt="Barbers cutting clients's hair" height="960" width="1280"/>
+    <Image src={slideFour} alt="Outside view of the barbershop" height="960" width="1280"/>
+    <Image src={slideFive} alt="Barbers setting up to cut hair" height="960" width="1280"/>
+    <Image src={slideSix} alt="Empty barbershop chairs" height="960" width="1280"/>
+    <Image src={slideSeven} alt="Dallas Cowboys football game shown in the background" height="960" width="1280" />
   </Flickity>
 );
 

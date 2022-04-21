@@ -20,7 +20,8 @@ const Hero = () => (
       layout="responsive"
       placeholder="blur"
       priority
-      quality="100"
+      height="1008"
+      width="1792"
       src={hero}
     />
   </section>
