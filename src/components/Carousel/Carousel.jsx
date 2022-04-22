@@ -14,13 +14,55 @@ const Carousel = () => (
     className="cursor-pointer overflow-hidden outline-none relative mt-11 text-gray-500"
     options={{ wrapAround: true }}
   >
-    <Image src={slideOne} alt="Barber trimming beard" height="960" width="1280" quality="80" />
-    <Image src={slideTwo} alt="Inside view of the barbershop" height="960" width="1280" quality="80" />
-    <Image src={slideThree} alt="Barbers cutting clients's hair" height="960" width="1280" quality="80" />
-    <Image src={slideFour} alt="Outside view of the barbershop" height="960" width="1280" quality="80" />
-    <Image src={slideFive} alt="Barbers setting up to cut hair" height="960" width="1280" quality="80" />
-    <Image src={slideSix} alt="Empty barbershop chairs" height="960" width="1280" quality="80" />
-    <Image src={slideSeven} alt="Dallas Cowboys football game shown in the background" height="960" width="1280" quality="80"  />
+    <Image
+      src={slideOne}
+      alt="Barber trimming beard"
+      height="960"
+      width="1280"
+      quality="80"
+    />
+    <Image
+      src={slideTwo}
+      alt="Inside view of the barbershop"
+      height="960"
+      width="1280"
+      quality="80"
+    />
+    <Image
+      src={slideThree}
+      alt="Barbers cutting clients's hair"
+      height="960"
+      width="1280"
+      quality="80"
+    />
+    <Image
+      src={slideFour}
+      alt="Outside view of the barbershop"
+      height="960"
+      width="1280"
+      quality="80"
+    />
+    <Image
+      src={slideFive}
+      alt="Barbers setting up to cut hair"
+      height="960"
+      width="1280"
+      quality="80"
+    />
+    <Image
+      src={slideSix}
+      alt="Empty barbershop chairs"
+      height="960"
+      width="1280"
+      quality="80"
+    />
+    <Image
+      src={slideSeven}
+      alt="Dallas Cowboys football game shown in the background"
+      height="960"
+      width="1280"
+      quality="80"
+    />
   </Flickity>
 );
 

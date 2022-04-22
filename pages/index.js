@@ -27,7 +27,3 @@ const Home = () => (
 );
 
 export default Home;
-
-// TODO:
-// Add labels/lighthouse
-// Update readme
