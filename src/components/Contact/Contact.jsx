@@ -17,7 +17,7 @@ const Location = () => {
                 <span className="font-bold">Address: </span>
                 <a
                   className="underline"
-                  href="https://www.google.com/maps/uv?pb=!1s0x864ea13e1e5e6131%3A0x623c7b38c2684144!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN6-Jagv-cOGoke-ipZ_i3bMcCiGucrMtBGJMSk%3Dw213-h160-k-no!5srepublic%20barbershop%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipN6-Jagv-cOGoke-ipZ_i3bMcCiGucrMtBGJMSk&hl=en&sa=X&ved=2ahUKEwisssHaqID0AhVwnGoFHUtdDdQQoip6BAg_EAM"
+                  href="https://www.google.com/maps/dir//republic+barbershop/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x864ea13e1e5e6131:0x623c7b38c2684144?sa=X&ved=2ahUKEwiV48my0aj3AhWKwZQKHRJsBksQ9Rd6BAhLEAQ"
                 >
                   <span>10918 Garland Rd suite 100, Dallas, TX 75218</span>
                 </a>
